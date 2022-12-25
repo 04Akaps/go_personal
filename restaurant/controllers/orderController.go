@@ -4,27 +4,26 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-func GetMenus() gin.HandlerFunc {
+func GetOrders() gin.HandlerFunc {
 	return func(c *gin.Context){
 
 	}
 }
 
-func GetMenu() gin.HandlerFunc {
-	return func(c *gin.Context){
-		
-	}
-}
-
-func CreateMenu() gin.HandlerFunc {
+func GetOrder() gin.HandlerFunc {
 	return func(c *gin.Context){
 		
 	}
 }
 
-func UpdateMenu() gin.HandlerFunc {
+func CreateOrder() gin.HandlerFunc {
 	return func(c *gin.Context){
 		
 	}
 }
 
+func UpdateOrder() gin.HandlerFunc {
+	return func(c *gin.Context){
+		
+	}
+}
